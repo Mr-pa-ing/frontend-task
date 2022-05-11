@@ -27,8 +27,8 @@ const Category = () => {
         <div className='hidden lg:block'>
           <CardCategory/>
         </div>
-        <div className='w-28 flex justify-center align-middle flex-col'>
-          <h2 className='text-gray-500 text-lg font-bold cursor-pointer'>View More</h2>
+        <div className='w-28'>
+          <h2 className='text-red-500 text-lg font-medium cursor-pointer'>View More</h2>
         </div>
       </div>
     </div>

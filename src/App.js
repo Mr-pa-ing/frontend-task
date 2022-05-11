@@ -6,7 +6,8 @@ import Item from "./container/Item/Item";
 import NewArrival from "./container/NewArrival/NewArrival";
 import Promotion from "./container/Promotion/Promotion";
 import Footer from "./container/Footer/Footer";
-import Gallery from "./container/Gallery/Gallery";
+import Carousel from "./container/Carousel/Carousel";
+
 
 function App() {
   return (
@@ -17,7 +18,7 @@ function App() {
       <Promotion/>
       <div className="h-2 bg-gray-200" />
       <NewArrival/>
-      {/* <Gallery/> */}
+      <Carousel/>
       <Brand/>
       <div className="h-2 bg-gray-200" />
       <Item name="Phone"/>

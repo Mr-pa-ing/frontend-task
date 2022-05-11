@@ -10,7 +10,7 @@ import Realme from "../../assets/realme.png"
 const Brand = () => {
   return (
     <div className='m-4 mb-8'>
-            <h1 className='text-3xl font-medium uppercase mt-4 ml-3'>View By Brands</h1>
+            <h1 className='text-3xl font-medium uppercase my-4 ml-3'>View By Brands</h1>
             <div className='grid grid-cols-3 md:grid-cols-4 lg:grid-cols-8 m-4'>
                 <div className='w-20 h-20'>
                     <img src={Apple} alt="apple" className='w-inherit mx-auto' />
@@ -38,5 +38,4 @@ const Brand = () => {
     </div>
   )
 }
-
 export default Brand
