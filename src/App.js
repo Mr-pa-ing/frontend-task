@@ -1,24 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import Banner from "./container/Banner/Banner";
+import Brand from "./container/Brand/Brand";
+import Buy from "./container/Buy1Get1/Buy";
+import Category from "./container/Category/Category";
+import Item from "./container/Item/Item";
+import NewArrival from "./container/NewArrival/NewArrival";
+import Promotion from "./container/Promotion/Promotion";
+import Footer from "./container/Footer/Footer";
+import Gallery from "./container/Gallery/Gallery";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Banner/>
+      <Category/>
+      <Buy/>
+      <Promotion/>
+      <div className="h-2 bg-gray-200" />
+      <NewArrival/>
+      {/* <Gallery/> */}
+      <Brand/>
+      <div className="h-2 bg-gray-200" />
+      <Item name="Phone"/>
+      <div className="h-2 bg-gray-200" />
+      <Item name="Latop"/>
+      <div className="h-2 bg-gray-200" />
+      <Item name="Tablet"/>
+      <Footer/>
+    </>
   );
 }
 
